@@ -1,0 +1,111 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+/*
+    Muted Red: #D93A36
+    Soft Gray: #E6E6E6
+    Charcoal: #333333
+    Soft Blue: #F7F7F7
+    Accent Gold: #DAA520
+
+    Background: #F7F7F7
+    Headers: Muted Red (#D93A36)
+    Text: Charcoal (#333333)
+    Subtext or Muted Areas: Soft Gray (#E6E6E6)
+    Highlights or Buttons: Accent Gold (#DAA520)
+*/
+
+body[b-qij23b86of] {
+    background-color: white;
+}
+/* /Layout/NavMenu.razor.rz.scp.css */
+*[b-48us5ij6bc]{
+  margin: 0;
+  padding: 0;
+}
+
+.clear[b-48us5ij6bc]{
+  clear: both;
+}
+
+
+.slide-toggle[b-48us5ij6bc]{
+  display: none;
+}
+
+.slidemenu[b-48us5ij6bc]{
+  font-family: arial, sans-serif;
+  max-width: 100%;
+  padding-top: 2rem;
+  overflow: hidden;
+   background-color: #D93A36;
+}
+
+.slidemenu label[b-48us5ij6bc]{
+  width: 20%;
+  text-align: center;
+  display: block;
+  float: left;
+  color: #333;
+  opacity: 0.2;
+
+}
+
+.slidemenu label:hover[b-48us5ij6bc]{
+  cursor: pointer;
+  color: #666;
+}
+
+.slidemenu label span[b-48us5ij6bc]{
+  display: block;
+  padding: 10px;    
+}
+
+.slidemenu label .icon[b-48us5ij6bc]{
+  font-size: 20px;
+  border: solid 2px #333;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  line-height: 50px;
+  border-radius: 50%;
+}
+
+/*Bar Style*/
+
+.slider[b-48us5ij6bc]{
+  width: 100%;
+  height: 5px;
+  display: block;
+  background: #ccc;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.slider .bar[b-48us5ij6bc]{
+  width: 20%;
+  height: 5px;
+  background: #333;
+  border-radius: 5px;
+}
+
+/*Animations*/
+.slidemenu label[b-48us5ij6bc], .slider .bar[b-48us5ij6bc] {
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+}
+
+/*Toggle*/
+
+.slidemenu .slide-toggle:checked + label[b-48us5ij6bc]{
+  opacity: 1;
+}
+
+
+
+.slidemenu #slide-item-1:checked ~ .slider .bar[b-48us5ij6bc]{ margin-left: 0; }
+.slidemenu #slide-item-2:checked ~ .slider .bar[b-48us5ij6bc]{ margin-left: 20%; }
+.slidemenu #slide-item-3:checked ~ .slider .bar[b-48us5ij6bc]{ margin-left: 40%; }
+.slidemenu #slide-item-4:checked ~ .slider .bar[b-48us5ij6bc]{ margin-left: 60%; }
+.slidemenu #slide-item-5:checked ~ .slider .bar[b-48us5ij6bc]{ margin-left: 80%; }
