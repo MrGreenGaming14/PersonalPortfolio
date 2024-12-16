@@ -109,3 +109,10 @@ body[b-qij23b86of] {
 .slidemenu #slide-item-3:checked ~ .slider .bar[b-48us5ij6bc]{ margin-left: 40%; }
 .slidemenu #slide-item-4:checked ~ .slider .bar[b-48us5ij6bc]{ margin-left: 60%; }
 .slidemenu #slide-item-5:checked ~ .slider .bar[b-48us5ij6bc]{ margin-left: 80%; }
+/* /Pages/HomeRazor/Home.razor.rz.scp.css */
+.center[b-7ohrubvesq] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+  }
