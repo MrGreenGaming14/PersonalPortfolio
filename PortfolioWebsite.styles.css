@@ -85,6 +85,17 @@ body[b-qij23b86of] {
   opacity: 1;
 }
 /* /Pages/EducationRazor/Education.razor.rz.scp.css */
+.custom-icon-style[b-8ej1fa1xqg] {
+    color: #DAA520;
+}
+
+.rounded-box[b-8ej1fa1xqg] {
+    background-color: white;
+    border-radius: 10px; /* Adjust the radius as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    padding: 20px; /* Adjust padding as needed */
+    margin: 20px; /* Adjust margin as needed */
+}
 /* /Pages/HomeRazor/Home.razor.rz.scp.css */
 .center[b-7ohrubvesq] {
     display: block;
